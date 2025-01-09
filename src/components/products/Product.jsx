@@ -52,7 +52,7 @@ aosDelay:"800"
 ]
 const Product = () => {
   return (
-    <div className='   sm:mt-0 lg:pt-7 sm:mb-0 dark:bg-gray-950 dark:text-white duration-200  lg:h-[500px] '>
+    <div className='   sm:mt-0 lg:pt-7 sm:mb-0 duration-200  lg:h-[500px] '>
         <div className='container mb-0 pb-10 '>
             {/* Header sec  */}
 <div className='text-center mb-10 max-w-[600px] mx-auto'>

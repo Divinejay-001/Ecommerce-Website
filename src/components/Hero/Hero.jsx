@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from '../../assets/hero/women.png'
 import image2 from '../../assets/hero/shopping.png'
 import image3 from '../../assets/hero/sale.png'
+import image4 from '../../assets/hero/Premium.png'
 import Slider from 'react-slick'
 import { motion } from 'framer-motion'
 
@@ -42,9 +43,15 @@ const ImageList = [
         title: '70% off on all male products sale',
         description: 'Upgrade your style for less! Enjoy an unbelievable 70% discount on our entire range of men’s products.'
     },
+    {
+        id: 4,
+        image: image4,
+        title: '70% off on all female products sale',
+        description: 'Upgrade your style for less! Enjoy an unbelievable 70% discount on our entire range of women’s products.'
+    },
 ];
 
-const Hero = () => {
+const Hero = ({ handleOrderPopup}) => {
     var  settings = {
         dots:false,
         infinite: true,
@@ -97,7 +104,7 @@ order-2 sm:order-1 relative z-10'>
      viewport={{ once: true }}
       
      >
-        <button
+        <button onClick={handleOrderPopup}
         className='bg-gradient-to-r from-primary
         to-secondary duration-200 hover:scale-105
         text-white py-2 px-4 rounded-full 

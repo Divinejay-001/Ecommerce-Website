@@ -6,7 +6,7 @@ import { GiFoodTruck } from 'react-icons/gi'
 const Banner = () => {
   return (
     <div className='min-h-[550px] flex justify-center items-center
-    py-12 sm:py-0 dark:bg-gray-950'>
+    py-12 sm:py-0 '>
         <div className='container '>
 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center   '>
     {/* image sec  */}
@@ -21,10 +21,10 @@ const Banner = () => {
     gap-6 sm:pt-0'>
       <h1 data-aos='fade-up' className='text-3xl sm:text-4xl dark:text-gray-400
     font-bold  '>Winter Sale Upto 50% off</h1>
-    <p data-aos='fade-up' className='text-sm text-gray-500 tracking-wide
-    leading-5  '>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi saepe delectus eligendi sed, necessitatibus tempore, debitis rem ratione, quisquam quidem culpa modi et! Eaque vitae ut voluptates cumque expedita ea!
-    </p>
+   <p data-aos='fade-up' className='text-sm text-gray-500 tracking-wide leading-5'>
+  Don’t miss out on the season’s biggest savings! Explore our exclusive Winter Sale and enjoy up to 50% off on a wide range of products. Whether you’re upgrading your wardrobe, refreshing your home, or finding the perfect gift, there’s something for everyone. Shop now and make this winter unforgettable!
+</p>
+
     <div className='flex flex-col gap-4 dark:text-gray-300'>
       <div className='flex items-center gap-4 '> 
         <GrSecure className='text-4xl h-12 w-12 *:shadow-sm

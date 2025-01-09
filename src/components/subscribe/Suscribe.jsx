@@ -13,7 +13,7 @@ const Suscribe = () => {
   return (
     <div data-aos="zoom-in"
     className='mb-0 pb-10 bg-gray-100
-     dark:bg-gray-950 text-white
+      text-white
     'style={BannerImg}>
         <div className='container backdrop-blur-sm py-10'>
         <div className='space-y-6 max-w-xl mx-auto'>
